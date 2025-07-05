@@ -1,25 +1,34 @@
-# README
+# 🗨️ Real-Time Chat App (Rails + Kafka + Karafka + ActionCable)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A real-time chat application built with **Ruby on Rails**, **Kafka**, **Karafka**, and **ActionCable**.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## ✨ Features
 
-* System dependencies
+- Real-time messaging via **ActionCable** (WebSockets)
+- Message publishing via **Kafka**
+- Message consumption and DB persistence via **Karafka**
+- Room-based chat between users
+- MVC architecture with clean separation of concerns
 
-* Configuration
+---
 
-* Database creation
+## 🧱 Tech Stack
 
-* Database initialization
+- **Ruby on Rails 8.x**
+- **PostgreSQL** (or any ActiveRecord-compatible DB)
+- **Kafka** (via Karafka gem)
+- **Karafka** for Kafka consumer/producer integration
+- **ActionCable** for WebSockets (built-in in Rails)
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🚀 Getting Started
 
-* Deployment instructions
+### 1. Clone the Repository
 
-* ...
-# kafka-chat-app
+```bash
+git clone https://github.com/your-username/rails-kafka-chat.git
+cd rails-kafka-chat
+```
